@@ -1,6 +1,10 @@
 #include <stdio.h>
 int main() {
+int i;
 
-   printf("Hello, World!");
-   
+  for (i = 0; i < 10; ++i)
+  {
+   printf("Hello World!");
+  }
+  return 0; 
 }
